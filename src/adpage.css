@@ -1,0 +1,47 @@
+.about-ad{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.adimage{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.productimage{
+    height: 500px;
+}
+
+.seller-detail{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.seller-detail button{
+    padding: 10px;
+    background-color: #002F34;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.ad_discription{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.disc-header{
+    border-bottom: 1px solid grey;
+}
+
+.inputmsg{
+    height: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .productimage{
+        height: 400px;
+    }
+}

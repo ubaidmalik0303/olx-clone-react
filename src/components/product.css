@@ -1,0 +1,33 @@
+.product{
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.product-image{
+    padding: 10px 30px;
+}
+
+.product-image img{
+    width: 100%;
+}
+
+.product-detail{
+    width: 100%;
+    border-left: 5px solid#FFCE32;
+    padding: 10px;
+}
+
+.product-detail p{
+    font-size: 14px;
+}
+
+.product-detail address{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.productImage{
+    height: 200px;
+}

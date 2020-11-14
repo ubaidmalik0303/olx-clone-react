@@ -1,0 +1,30 @@
+.signin{
+    width: 330px;
+    padding: 20px;
+    margin: 50px auto 0 auto;
+    box-shadow: 0 0 30px 2px rgb(206, 205, 205);
+    border-radius: 5px;
+
+}
+
+.signin input{
+    margin: 20px 0;
+    height: 50px;
+    width: 100%;
+}
+
+.signin h2:nth-child(1){
+    text-align: center;
+}
+
+.signin input:nth-child(4){
+    background-color: rgb(0, 170, 91);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.signin p:nth-child(5){
+    text-align: center;
+    cursor: pointer;
+}

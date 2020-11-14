@@ -1,0 +1,89 @@
+.heading{
+    text-align: center;
+}
+
+.topbar{
+    padding: 20px;
+    background-color: rgb(245, 243, 243);
+}
+
+.topbar img{
+    width: 50px;
+}
+
+.category-box{
+    border: 1px solid grey;
+    margin: 10px 50px;
+    border-radius: 5px;
+}
+
+.select-head{
+    margin: 20px;
+}
+
+.main-boxes-box{
+    display: flex;
+    flex: row;
+}
+
+.left-boxes{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.box{
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+}
+
+.box:hover{
+    background-color: rgb(224, 222, 222);
+}
+
+.form-section{
+    padding: 20px 10px;
+    border-bottom: 1px solid grey;
+}
+
+.form-section2{
+    padding: 50px 10px;
+    border-bottom: 1px solid grey;
+}
+
+.form-section3{
+    padding: 20px 10px;
+}
+
+.fileupload{
+    width: 150px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1000px){
+    .form-section input{
+        width: 100% !important;
+    }
+
+    .form-section textarea{
+        width: 100% !important;
+    }
+
+    .left-boxes{
+        width: 100%;
+        border-right: none;
+    }
+}
+
+.post-btn{
+    background-color: #002F34;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
