@@ -109,7 +109,7 @@ class Chat extends React.Component {
                         </div>
                         {this.state.input_remove === true ? true : <form className="my-2">
                             <input type="text" style={{ width: "80%", height: "45px" }} onChange={(e) => this.setState({ message: e.target.value })} />
-                            <input type="submit" disabled value="send" style={{ width: "20%", height: "45px", backgroundColor: "#002F34", color: "white" }} onClick={(e) => { this.send_msg(e) }} />
+                            <input type="submit" value="send" style={{ width: "20%", height: "45px", backgroundColor: "#002F34", color: "white" }} onClick={(e) => { this.send_msg(e) }} />
                         </form>}
                     </div>
                 </div>
